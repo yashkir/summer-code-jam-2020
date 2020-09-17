@@ -9,7 +9,8 @@ services:
     # build image from current directory
     build: .
     # run django webserver
-    command: python manage.py runserver 0.0.0.0:8000
+    #command: python manage.py runserver 0.0.0.0:8000
+    command: daphne twentytwentymud.asgi:application
     # mount our code base in the container
     volumes:
       - .:/code

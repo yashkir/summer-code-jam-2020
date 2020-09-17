@@ -34,10 +34,11 @@ ASGI_APPLICATION = 'twentytwentymud.routing.application'
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = ')2f7x16f7n@!qapj^t*0!&eg@^lgy$c+x_#$#smn_$9&lcx&2l'
 
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['172.105.105.238', 'yuriyyashkir.com', 'www.yuriyyashkir.com']
 
 
 # Application definition
